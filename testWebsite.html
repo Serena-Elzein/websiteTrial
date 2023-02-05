@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+                body {
+                background-color: yellow;
+            }
+            h1 {
+                color: white;
+                text-align: center;
+            }
+            p {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>
+            <center> Welcome To My Website</center>
+        </h2>
+        <center>
+            <p id="demo">Click for a message</p>
+        </center>
+        <center>
+            <button type="button" onclick="myFunction()">TRY ME</button>
+        </center>
+        <script>
+            function myFunction(){
+                document.getElementById("demo").innerHTML = "Hello World";
+            }
+        </script>
+    </body>
+</html>
